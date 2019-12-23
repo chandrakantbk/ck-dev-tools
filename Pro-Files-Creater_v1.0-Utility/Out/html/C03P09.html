@@ -1,0 +1,20 @@
+<div class="pages M01C01P01">
+	<div class="data-container sequence">
+			
+	</div>
+	<p class="global-nav-instruction">Click NEXT to continue.</p>
+</div>
+<script>
+
+	function disableNext(){
+		Mg.S.NextButton.addClass(Mg.S.disabled);
+	}
+	
+	function enableNext(){
+		Mg.S.NextButton.removeClass(Mg.S.disabled);
+		Mg.Navigation.updatePageCompletion();
+		$(".global-nav-instruction").show(400);
+		return true;
+	}
+	
+</script>

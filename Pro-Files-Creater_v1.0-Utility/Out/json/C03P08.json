@@ -1,0 +1,20 @@
+{
+	"CSAudio":{
+		"path": "content/audios/blank.mp3",
+		"Transcript": [
+			{
+				"qPoint": 0, "Text": "Dummy text"
+			}
+		],
+		
+		"Animation": [
+			{"qPoint": 0, "selector": "", "startFunction": "", "effect": "show" }
+		]
+		
+	},
+	
+		
+	"Images": [
+		""
+	]
+}
